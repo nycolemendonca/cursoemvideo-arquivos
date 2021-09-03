@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Link que aponta para outro site.</p>
+    <p>Você pode acessar o meu <a href="https://github.com/nycolemendonca" target="_blank" rel="external">repositório público no GitHub</a>.</p>
+    <!--rel="external" Indica que o link vai para um site diferente do atual-->
+
+    <h2>Usando links internos</h2> <!--Ligação com outra página que está dentro do meu próprio servidor.-->
+    <p>Esta é a primeira página do site. Se você quiser pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página</a></p>
+    <!--target="_self": o link abre na mesma aba-->
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next">página de notícias</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/edital.pdf" download="edital.pdf" type="application/pdf">Baixar o livro em pdf</a>
+        <li><a href="livro/edital.zip" download="edital.zip" type="application/zip" >Livro compactado em ZIP</a>
+    </ul>
+</body>
+</html>
